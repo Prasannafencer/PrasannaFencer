@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [createcontactSuite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Sample.Create_contact_testng_test">
+        <methods>
+          <include name="create_contact"/>
+          <include name="close"/>
+          <include name="conactas"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="launch_the_browser"/>
+          <include name="TITLE_OF_THE_PAGE"/>
+        </methods>
+      </class> <!-- Sample.Create_contact_testng_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [createcontactSuite] -->
